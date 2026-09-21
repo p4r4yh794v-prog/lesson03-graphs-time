@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -29,4 +28,3 @@ def load_data():
     df = pd.read_csv(DATA_URL)
 
     # 날짜 열을 진짜 날짜 형식으로 변환
-```
